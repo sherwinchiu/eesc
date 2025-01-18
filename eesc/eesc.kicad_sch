@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8cfd3b25-b095-4a95-8a68-04de9d704a9d")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sherwin "
+		(exclude_from_sim no)
+		(at 277.114 184.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fca564f-7711-43f2-8bb3-57f795bbcf51")
+	)
+	(text "EESC V1.0\n"
+		(exclude_from_sim no)
+		(at 196.596 174.244 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "a9c70d46-1ed4-43cd-b9e2-6f65067eea60")
+	)
+	(text "V1.0"
+		(exclude_from_sim no)
+		(at 271.018 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b734034d-895a-4bc0-9b39-7435b89896ac")
+	)
+	(text "An open source ESC based off of ESP32."
+		(exclude_from_sim no)
+		(at 241.046 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddf28fa2-082f-42e3-96f0-3fc0527551de")
+	)
+	(text "1/18/2025\n"
+		(exclude_from_sim no)
+		(at 212.344 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f519cef8-3e60-4c06-9867-1d0ce560ab90")
+	)
+	(sheet
+		(at 129.54 50.8)
+		(size 45.72 101.6)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "024fa845-0aac-404b-8617-6c8a250d7973")
+		(property "Sheetname" "MCU"
+			(at 129.54 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 129.54 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eesc"
+				(path "/8cfd3b25-b095-4a95-8a68-04de9d704a9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 50.8)
+		(size 25.4 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe1d3a94-8e32-4fd9-8f41-8b605bf4a095")
+		(property "Sheetname" "Motor Driver"
+			(at 203.2 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 203.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eesc"
+				(path "/8cfd3b25-b095-4a95-8a68-04de9d704a9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

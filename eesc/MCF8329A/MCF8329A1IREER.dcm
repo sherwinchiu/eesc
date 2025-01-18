@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCF8329A1IREER
+D Motor / Motion / Ignition Controllers & Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125
+K
+F https://www.ti.com/lit/gpn/mcf8329a
+$ENDCMP
+#
+#End Doc Library
